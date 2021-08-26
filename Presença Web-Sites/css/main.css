@@ -170,3 +170,92 @@ li.slick-active button{
     font-size: 15px;
     color: #9a9a9a;
 }
+.col-3{
+    
+    width: 30%;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    position: relative;
+}
+.bloco-texto{
+    margin-top: 3em;
+}
+h3{
+    font-weight: normal !important;
+}
+.secao-service{
+    height: 680px;
+ 
+    background-size: cover;
+    padding-top: 58px;
+    background-image: url(../img/shape3.png);
+
+}
+.content .row{
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: -22px;
+    
+}
+
+.content .row div.col-25{
+    width: 30%;
+    height: 280px;
+    margin: 0 auto;
+    border: 2px solid #c5c5c5 ;
+    
+}
+.content .row .local-image{
+    height: 175px;
+    margin: 0;
+    background-color: #252323;
+ 
+}
+.local-image img{
+    width: -webkit-fill-available;
+    height: 175px;
+}
+.title-image{
+    text-align: justify;
+    margin: 0;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 31px;
+    margin-right: 21px;
+
+}
+.p-image{
+    text-align: justify;
+    margin: 0px;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-left: 31px;
+    margin-right: 21px;
+}
+.partnership-section{
+    height: 180px;
+    display: flex;
+}
+.partnership-section .row{
+
+ 
+    display: flex;
+    position: relative;
+}
+
+.partnership-section .row .col-4{
+
+
+    width: 25%;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 80px;
+    margin-bottom: 60px;
+}
+
+.partnership-section .local-image{
+    width: -webkit-fill-available;
+    
+}
