@@ -234,6 +234,7 @@ h3{
     margin-left: 31px;
     margin-right: 21px;
 }
+/*
 .partnership-section{
     height: 180px;
     display: flex;
@@ -258,4 +259,102 @@ h3{
 .partnership-section .local-image{
     width: -webkit-fill-available;
     
+}
+*/
+.col-4{
+    float:left;
+    width: 25%;
+    text-align: center;
+}
+.col-4 img{
+    
+    margin: 0 auto;
+    vertical-align: middle;
+    padding-top: 1em;
+}
+.col-4 img:hover{
+    cursor: pointer;
+}
+.bloco-logo{
+    height: 170px;
+}
+.bloco-logo img{
+    margin-top: 50px
+}
+.footer h3,p{
+
+    text-align: left;
+}
+.footer{
+    background-image: url("../img/footer.png");
+    color: #fff;
+}
+.footer-2{
+    background-image: url("../img/footer2.png");
+    color: #c1c1c1;
+    height: 90px;
+}
+.footer-2 p{
+ padding: 10px;
+}
+.clock{
+    color: #898989
+}
+.clock:before{
+    content: '';
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url("../img/clock.png");
+    background-repeat: no-repeat;
+    padding-left: 5px;
+    float: left;
+}
+.contato-local:before{
+    content: '';
+    width: 13px;
+    height: 20px;
+    display: inline-block;
+    background-image: url("../img/local.png");
+    background-repeat: no-repeat;
+    padding-left: 5px;
+    float: left;
+}
+.contato-email:before{
+    content: '';
+    width: 17px;
+    height: 13px;
+    display: inline-block;
+    background-image: url("../img/emailk.png");
+    background-repeat: no-repeat;
+    padding-left: 5px;
+    float: left;
+}
+.contato-tel::before{
+    content: '';
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    background-image: url("../img/tel.png");
+    background-repeat: no-repeat;
+    padding-left: 5px;
+    float: left;
+
+}
+.menu-footer ul li{
+    display: inline-block;
+    list-style: none;
+    float: right;
+    margin-right: 20px;
+}
+.menu-footer ul{
+    width: 25%;
+    float: right;
+}
+
+.menu-footer{
+    margin: 0;
+    margin-top: -5%;
+    padding: 0px;
+}
 }
